@@ -1,2 +1,7 @@
-playwright
-openpyxl
+import asyncio
+from playwright.async_api import async_playwright
+from urllib.parse import urljoin
+from openpyxl import Workbook
+from openpyxl.styles import Font
+import csv
+
